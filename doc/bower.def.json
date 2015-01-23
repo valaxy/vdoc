@@ -1,0 +1,51 @@
+{
+	"_schema": "json.object",
+	"properties": [
+		{
+			"_schema": "json.property",
+			"name": {
+				"_schema": "json.string",
+				"value": "name"
+			},
+			"value": {
+				"_schema": "json.string"
+			}
+		},
+		{
+			"_schema": "json.property",
+			"name": "main",
+			"value": {
+				"_schema": "json.string"
+			}
+		},
+		{
+			"_schema": "json.property",
+			"name": "ignore",
+			"value": {
+				"_schema": "json.array",
+				"value": {
+					"_schema": "json.string"
+				}
+			}
+		},
+		{
+			"_schema": "json.property",
+			"name": "dependencies",
+			"properties": [
+				{
+					"_schema": "json.property",
+					"name": {
+						"_schema": "json.string",
+						"description": "name"
+					},
+					"value": {
+						"_schema": "json.string",
+						"description": "version/folder/package"
+					}
+				}
+			]
+		}
+	]
+}
+
+
